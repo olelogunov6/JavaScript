@@ -256,10 +256,14 @@
 
 // console.log(`Я хочу купити ${budget > bmwX3Price ? 'BMW' : 'Велосипед'}`);
 
+                    
+
+                            
 
 
 
 
+                // ЛОГІЧНІ ОПЕРАТОРИ + switch,case,default
 
 // let answer = (prompt('Скільки буде 7 + 8'));
 
@@ -284,7 +288,7 @@
 
 
 
-const res = prompt('Скільки буде 7 + або - 15');
+// const res = prompt('Скільки буде 7 + або - 15');
 // switch(true) {
 //     case res === 'Я не робот':
 //     case Number(res) ===  22:
@@ -296,16 +300,79 @@ const res = prompt('Скільки буде 7 + або - 15');
 // }
 
 
-if (res === 'Я не робот') {
-    console.log('Успех !!');
-} else {
-    const resNum = Number(res);
-    switch(resNum) {
-        case 22:
-        case -8:
-            console.log('Успех !!');
-            break;
-        default:
-            console.log('Ви робот !!');
-    }
-}
+// if (res === 'Я не робот') {
+//     console.log('Успех !!');
+// } else {
+//     const resNum = Number(res);
+//     switch(resNum) {
+//         case 22:
+//         case -8:
+//             console.log('Успех !!');
+//             break;
+//         default:
+//             console.log('Ви робот !!');
+//     }
+// }
+
+
+
+
+
+
+
+                        // БУЛЕВІ ОПЕРАТОРИ....
+
+
+
+
+
+
+// const isAdmin = true;
+// const canWrite = true;
+
+// console.log(`Системний файл ${isAdmin && canWrite}`);
+// console.log(`Обичний  файл ${isAdmin || canWrite}`);
+// console.log(`Інвертируєм права адміна ${!isAdmin}`); // Первертає саме значення true на false, і на оборот.. 
+
+// const isEdited = true;
+// const isSuperAdmin = false;
+
+// console.log(`Файл редактирований ${
+//     isAdmin && canWrite && (!isEdited || isSuperAdmin)
+// }`)
+
+
+
+
+// console.log(!true);   // false
+// console.log(!false);  // true
+
+
+
+// console.log(5 > 3 && 2 > 10); // false
+// console.log(5 > 3 || 2 > 10); // true
+// console.log(1 === 1 && 1 === 1); // true
+// console.log(1 === 2 || 1 === 2); // false
+
+
+
+
+console.log('Вася' || 'Олег');
+console.log('false' || 'Олег');
+console.log('Вася' || 'false');
+console.log(false || false);
+
+console.log('Вася' && 'Олег');
+console.log(false && 'Олег');
+console.log('Вася' && false);
+console.log(false && false);
+
+
+let a = 'Марина';
+const userName = a || 'Петя';
+console.log(userName);
+
+
+const isAdmin = true;
+const filename = isAdmin && 'file.mp4';
+console.log(filename)
