@@ -1,4 +1,4 @@
- // ЛОГІЧНІ ОПЕРАТОРИ + switch,case,default
+            // ЛОГІЧНІ ОПЕРАТОРИ + switch,case,default
 
 // let answer = (prompt('Скільки буде 7 + 8'));
 
